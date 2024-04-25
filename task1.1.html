@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List Application</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="header">
+    <h1 class="title">TO DO LIST</h1>
+  </div>
+  <div class="container">
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="What would you like to do todays..?">
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+    <div class="todo-list">
+      <h2 class="list-title">To-Do List</h2>
+      <div class="list">
+        <div class="list-header">
+          <div class="header-item">Task</div>
+          <div class="header-item">Status</div>
+          <div class="header-item">Close</div>
+        </div>
+        <ul id="taskList" class="list-content"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="task1.js"></script>
+</body>
+</html>
